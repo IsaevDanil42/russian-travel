@@ -1,0 +1,7 @@
+.header__lang-container {
+  display: flex;
+  justify-content: space-between;
+  width: 74px;
+  padding-top: 46px;
+  padding-right: 48px;
+}
