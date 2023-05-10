@@ -1,0 +1,7 @@
+.lead {
+  margin: 0 auto;
+  max-width: 928px;
+  padding-top: 128px;
+  padding-left: calc((100% - 928px)/2);
+  padding-right: calc((100% - 928px)/2);
+}
