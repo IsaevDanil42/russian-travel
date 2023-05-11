@@ -1,6 +1,11 @@
 .page {
-  /* font-family: ; */
   background-color: #2A2C2F;
   max-width: 1024px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .page {
+    max-width: 1280px;
+  }
 }
