@@ -1,5 +1,5 @@
 .footer__copyright {
-  margin: 0 48px 0 0;
+  margin: 2px 48px 24px 0;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -7,4 +7,17 @@
   line-height: 16px;
   text-align: right;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .footer__copyright {
+    margin: 16px 0 24px 16px;
+    text-align: start;
+  }
 }

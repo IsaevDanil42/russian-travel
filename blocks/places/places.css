@@ -5,3 +5,23 @@
   flex-direction: column;
   gap: 80px;
 }
+
+@media screen and (min-width: 1280px) {
+  .places {
+    max-width: 984px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .places {
+    max-width: 720px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .places {
+    margin: 64px auto 0;
+    max-width: 720px;
+  }
+}

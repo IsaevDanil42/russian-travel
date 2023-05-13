@@ -2,3 +2,21 @@
   grid-column: 1;
   max-width: 440px;
 }
+
+@media screen and (min-width: 1280px) {
+  .places__img {
+    max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .places__img {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .places__img {
+    max-width: 320px;
+  }
+}
