@@ -9,16 +9,10 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Силуэт России и название страны">
-    <form class="header__lang-container">
-      <label>
-        <input class="header__lang-button" type="radio" name="language" checked>
-        <span class="header__lang-link">Ru</span>
-      </label>
-      <label>
-        <input class="header__lang-button" type="radio" name="language">
-        <span class="header__lang-link">En</span>
-      </label>
-    </form>
+    <ul class="header__lang-container">
+      <li><a class="header__lang-link header__lang_link-active" href="#">Ru</a></li>
+      <li><a class="header__lang-link" href="#">En</a></li>
+    </ul>
   </header>
   <main class="content">
     <section class="lead">
@@ -34,11 +28,11 @@
         загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране.
         Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__number">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class="intro__number">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__number">16</span></li>
+        <li>Природных заповедников <span class="intro__number">105</span></li>
+        <li>Аэропортов <span class="intro__number">241</span></li>
       </ul>
     </section>
     <section class="photo-grid">
