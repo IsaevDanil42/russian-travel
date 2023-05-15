@@ -23,12 +23,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .cover__link-overlay::before  {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
   .cover__link-overlay {
     min-height: 740px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 

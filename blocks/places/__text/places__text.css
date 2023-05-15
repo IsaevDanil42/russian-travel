@@ -1,5 +1,7 @@
 @media screen and (max-width: 740px) {
   .places__text {
     grid-column: 1;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

@@ -13,5 +13,6 @@
   .footer__link-container {
     flex-direction: column;
     margin-left: 16px;
+    margin-bottom: 0;
   }
 }

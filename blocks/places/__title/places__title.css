@@ -13,6 +13,11 @@
     font-size: 42px;
     line-height: 46px;
   }
+  /* .places__title:first-child  {
+    font-size: 42px;
+    line-height: 46px;
+    max-width: 330px;
+  } */
 }
 
 @media screen and (max-width: 740px) {
